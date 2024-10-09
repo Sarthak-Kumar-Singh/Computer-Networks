@@ -59,3 +59,15 @@ The **Hub Controller** works by redirecting all the traffic it receives to itsel
 The Hub Controller is simple to implement but inefficient for larger networks as all hosts receive unnecessary traffic, resulting in lower throughput and increased network congestion.
 
 ---
+
+## Additional Notes
+
+- Implementations use the Mininet network emulator and the Ryu SDN controller framework.
+- The given topology file (\`topology.py\`) sets up a network with multiple hosts and switches for testing purposes.
+
+## References
+
+- [Mininet Documentation](http://mininet.org)
+- [Ryu SDN Controller](https://osrg.github.io/ryu/)
+
+---
